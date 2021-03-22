@@ -3,39 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F45779025765AFA0055DB7C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F45778F25765AFA0055DB7C /* Country.swift */; };
+		1F45779225765C320055DB7C /* CitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F45779125765C320055DB7C /* CitySelectionViewController.swift */; };
+		1F45779425765E610055DB7C /* CountryServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F45779325765E610055DB7C /* CountryServise.swift */; };
+		1F83481F257FBDE900D19B1B /* ToursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F83481E257FBDE900D19B1B /* ToursViewController.swift */; };
+		1F834821257FD40500D19B1B /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F834820257FD40500D19B1B /* CollectionCell.swift */; };
+		1F893EF5258902D70028D7C2 /* ErrorCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F893EF4258902D70028D7C2 /* ErrorCollectionCell.swift */; };
+		1F977F162587799500E7CB7A /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F977F152587799500E7CB7A /* Hotel.swift */; };
 		1FA0E3592575039500CDCB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0E3582575039500CDCB2C /* AppDelegate.swift */; };
 		1FA0E35B2575039500CDCB2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0E35A2575039500CDCB2C /* SceneDelegate.swift */; };
 		1FA0E35D2575039500CDCB2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0E35C2575039500CDCB2C /* ViewController.swift */; };
 		1FA0E3602575039500CDCB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA0E35E2575039500CDCB2C /* Main.storyboard */; };
 		1FA0E3622575039900CDCB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA0E3612575039900CDCB2C /* Assets.xcassets */; };
 		1FA0E3652575039900CDCB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA0E3632575039900CDCB2C /* LaunchScreen.storyboard */; };
-		1FA0E3702575039900CDCB2C /* Test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0E36F2575039900CDCB2C /* Test1Tests.swift */; };
-		1FA0E37B2575039900CDCB2C /* Test1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0E37A2575039900CDCB2C /* Test1UITests.swift */; };
+		637620D8677388797A171A43 /* Pods_OnlineTours.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B279770B644A0D4B7F6B86C /* Pods_OnlineTours.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1FA0E36C2575039900CDCB2C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FA0E34D2575039500CDCB2C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FA0E3542575039500CDCB2C;
-			remoteInfo = Test1;
-		};
-		1FA0E3772575039900CDCB2C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FA0E34D2575039500CDCB2C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FA0E3542575039500CDCB2C;
-			remoteInfo = Test1;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1FA0E3552575039500CDCB2C /* Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1175A65793F15CF1547CB6 /* Pods-Test1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test1.release.xcconfig"; path = "Target Support Files/Pods-Test1/Pods-Test1.release.xcconfig"; sourceTree = "<group>"; };
+		1F45778F25765AFA0055DB7C /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		1F45779125765C320055DB7C /* CitySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectionViewController.swift; sourceTree = "<group>"; };
+		1F45779325765E610055DB7C /* CountryServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryServise.swift; sourceTree = "<group>"; };
+		1F83481E257FBDE900D19B1B /* ToursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursViewController.swift; sourceTree = "<group>"; };
+		1F834820257FD40500D19B1B /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		1F893EF4258902D70028D7C2 /* ErrorCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCollectionCell.swift; sourceTree = "<group>"; };
+		1F977F152587799500E7CB7A /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		1F9C8A3C9288453586F849EB /* Pods-OnlineTours.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineTours.debug.xcconfig"; path = "Target Support Files/Pods-OnlineTours/Pods-OnlineTours.debug.xcconfig"; sourceTree = "<group>"; };
+		1FA0E3552575039500CDCB2C /* OnlineTours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineTours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA0E3582575039500CDCB2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FA0E35A2575039500CDCB2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1FA0E35C2575039500CDCB2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +41,9 @@
 		1FA0E3612575039900CDCB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA0E3642575039900CDCB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FA0E3662575039900CDCB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FA0E36B2575039900CDCB2C /* Test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FA0E36F2575039900CDCB2C /* Test1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1Tests.swift; sourceTree = "<group>"; };
-		1FA0E3712575039900CDCB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FA0E3762575039900CDCB2C /* Test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FA0E37A2575039900CDCB2C /* Test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1UITests.swift; sourceTree = "<group>"; };
-		1FA0E37C2575039900CDCB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE83934F4DEF8283C35E0AA /* Pods-Test1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test1.debug.xcconfig"; path = "Target Support Files/Pods-Test1/Pods-Test1.debug.xcconfig"; sourceTree = "<group>"; };
+		62C5AE49EEC119E698BABB97 /* Pods-OnlineTours.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineTours.release.xcconfig"; path = "Target Support Files/Pods-OnlineTours/Pods-OnlineTours.release.xcconfig"; sourceTree = "<group>"; };
+		6B279770B644A0D4B7F6B86C /* Pods_OnlineTours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineTours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FA0E3682575039900CDCB2C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FA0E3732575039900CDCB2C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				637620D8677388797A171A43 /* Pods_OnlineTours.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,110 +61,82 @@
 		1FA0E34C2575039500CDCB2C = {
 			isa = PBXGroup;
 			children = (
-				1FA0E3572575039500CDCB2C /* Test1 */,
-				1FA0E36E2575039900CDCB2C /* Test1Tests */,
-				1FA0E3792575039900CDCB2C /* Test1UITests */,
+				1FA0E3572575039500CDCB2C /* OnlineTours */,
 				1FA0E3562575039500CDCB2C /* Products */,
+				ED9F8A09961516EEC2542F92 /* Pods */,
+				60CC03E71CA292EAB15404D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1FA0E3562575039500CDCB2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FA0E3552575039500CDCB2C /* Test1.app */,
-				1FA0E36B2575039900CDCB2C /* Test1Tests.xctest */,
-				1FA0E3762575039900CDCB2C /* Test1UITests.xctest */,
+				1FA0E3552575039500CDCB2C /* OnlineTours.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1FA0E3572575039500CDCB2C /* Test1 */ = {
+		1FA0E3572575039500CDCB2C /* OnlineTours */ = {
 			isa = PBXGroup;
 			children = (
 				1FA0E3582575039500CDCB2C /* AppDelegate.swift */,
 				1FA0E35A2575039500CDCB2C /* SceneDelegate.swift */,
 				1FA0E35C2575039500CDCB2C /* ViewController.swift */,
+				1F45778F25765AFA0055DB7C /* Country.swift */,
+				1F977F152587799500E7CB7A /* Hotel.swift */,
+				1F45779125765C320055DB7C /* CitySelectionViewController.swift */,
+				1F45779325765E610055DB7C /* CountryServise.swift */,
+				1F83481E257FBDE900D19B1B /* ToursViewController.swift */,
+				1F834820257FD40500D19B1B /* CollectionCell.swift */,
+				1F893EF4258902D70028D7C2 /* ErrorCollectionCell.swift */,
 				1FA0E35E2575039500CDCB2C /* Main.storyboard */,
 				1FA0E3612575039900CDCB2C /* Assets.xcassets */,
 				1FA0E3632575039900CDCB2C /* LaunchScreen.storyboard */,
 				1FA0E3662575039900CDCB2C /* Info.plist */,
 			);
-			path = Test1;
+			path = OnlineTours;
 			sourceTree = "<group>";
 		};
-		1FA0E36E2575039900CDCB2C /* Test1Tests */ = {
+		60CC03E71CA292EAB15404D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1FA0E36F2575039900CDCB2C /* Test1Tests.swift */,
-				1FA0E3712575039900CDCB2C /* Info.plist */,
+				6B279770B644A0D4B7F6B86C /* Pods_OnlineTours.framework */,
 			);
-			path = Test1Tests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1FA0E3792575039900CDCB2C /* Test1UITests */ = {
+		ED9F8A09961516EEC2542F92 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1FA0E37A2575039900CDCB2C /* Test1UITests.swift */,
-				1FA0E37C2575039900CDCB2C /* Info.plist */,
+				3CE83934F4DEF8283C35E0AA /* Pods-Test1.debug.xcconfig */,
+				1B1175A65793F15CF1547CB6 /* Pods-Test1.release.xcconfig */,
+				1F9C8A3C9288453586F849EB /* Pods-OnlineTours.debug.xcconfig */,
+				62C5AE49EEC119E698BABB97 /* Pods-OnlineTours.release.xcconfig */,
 			);
-			path = Test1UITests;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FA0E3542575039500CDCB2C /* Test1 */ = {
+		1FA0E3542575039500CDCB2C /* OnlineTours */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FA0E37F2575039900CDCB2C /* Build configuration list for PBXNativeTarget "Test1" */;
+			buildConfigurationList = 1FA0E37F2575039900CDCB2C /* Build configuration list for PBXNativeTarget "OnlineTours" */;
 			buildPhases = (
+				DAF5044138C70CFAEAF3E865 /* [CP] Check Pods Manifest.lock */,
 				1FA0E3512575039500CDCB2C /* Sources */,
 				1FA0E3522575039500CDCB2C /* Frameworks */,
 				1FA0E3532575039500CDCB2C /* Resources */,
+				60A36C434B899CCDA5356EB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Test1;
+			name = OnlineTours;
 			productName = Test1;
-			productReference = 1FA0E3552575039500CDCB2C /* Test1.app */;
+			productReference = 1FA0E3552575039500CDCB2C /* OnlineTours.app */;
 			productType = "com.apple.product-type.application";
-		};
-		1FA0E36A2575039900CDCB2C /* Test1Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FA0E3822575039900CDCB2C /* Build configuration list for PBXNativeTarget "Test1Tests" */;
-			buildPhases = (
-				1FA0E3672575039900CDCB2C /* Sources */,
-				1FA0E3682575039900CDCB2C /* Frameworks */,
-				1FA0E3692575039900CDCB2C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1FA0E36D2575039900CDCB2C /* PBXTargetDependency */,
-			);
-			name = Test1Tests;
-			productName = Test1Tests;
-			productReference = 1FA0E36B2575039900CDCB2C /* Test1Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1FA0E3752575039900CDCB2C /* Test1UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FA0E3852575039900CDCB2C /* Build configuration list for PBXNativeTarget "Test1UITests" */;
-			buildPhases = (
-				1FA0E3722575039900CDCB2C /* Sources */,
-				1FA0E3732575039900CDCB2C /* Frameworks */,
-				1FA0E3742575039900CDCB2C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1FA0E3782575039900CDCB2C /* PBXTargetDependency */,
-			);
-			name = Test1UITests;
-			productName = Test1UITests;
-			productReference = 1FA0E3762575039900CDCB2C /* Test1UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -192,22 +146,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = "Алексей";
+				ORGANIZATIONNAME = "Танчик";
 				TargetAttributes = {
 					1FA0E3542575039500CDCB2C = {
 						CreatedOnToolsVersion = 11.6;
 					};
-					1FA0E36A2575039900CDCB2C = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 1FA0E3542575039500CDCB2C;
-					};
-					1FA0E3752575039900CDCB2C = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 1FA0E3542575039500CDCB2C;
-					};
 				};
 			};
-			buildConfigurationList = 1FA0E3502575039500CDCB2C /* Build configuration list for PBXProject "Test1" */;
+			buildConfigurationList = 1FA0E3502575039500CDCB2C /* Build configuration list for PBXProject "OnlineTours" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FA0E3542575039500CDCB2C /* Test1 */,
-				1FA0E36A2575039900CDCB2C /* Test1Tests */,
-				1FA0E3752575039900CDCB2C /* Test1UITests */,
+				1FA0E3542575039500CDCB2C /* OnlineTours */,
 			);
 		};
 /* End PBXProject section */
@@ -238,63 +182,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FA0E3692575039900CDCB2C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FA0E3742575039900CDCB2C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60A36C434B899CCDA5356EB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlineTours/Pods-OnlineTours-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlineTours/Pods-OnlineTours-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnlineTours/Pods-OnlineTours-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF5044138C70CFAEAF3E865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlineTours-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FA0E3512575039500CDCB2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F45779025765AFA0055DB7C /* Country.swift in Sources */,
 				1FA0E35D2575039500CDCB2C /* ViewController.swift in Sources */,
+				1F893EF5258902D70028D7C2 /* ErrorCollectionCell.swift in Sources */,
+				1F45779425765E610055DB7C /* CountryServise.swift in Sources */,
+				1F977F162587799500E7CB7A /* Hotel.swift in Sources */,
+				1F834821257FD40500D19B1B /* CollectionCell.swift in Sources */,
+				1F45779225765C320055DB7C /* CitySelectionViewController.swift in Sources */,
 				1FA0E3592575039500CDCB2C /* AppDelegate.swift in Sources */,
+				1F83481F257FBDE900D19B1B /* ToursViewController.swift in Sources */,
 				1FA0E35B2575039500CDCB2C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FA0E3672575039900CDCB2C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FA0E3702575039900CDCB2C /* Test1Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FA0E3722575039900CDCB2C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FA0E37B2575039900CDCB2C /* Test1UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1FA0E36D2575039900CDCB2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FA0E3542575039500CDCB2C /* Test1 */;
-			targetProxy = 1FA0E36C2575039900CDCB2C /* PBXContainerItemProxy */;
-		};
-		1FA0E3782575039900CDCB2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FA0E3542575039500CDCB2C /* Test1 */;
-			targetProxy = 1FA0E3772575039900CDCB2C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1FA0E35E2575039500CDCB2C /* Main.storyboard */ = {
@@ -432,15 +382,16 @@
 		};
 		1FA0E3802575039900CDCB2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9C8A3C9288453586F849EB /* Pods-OnlineTours.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test1/Info.plist;
+				INFOPLIST_FILE = OnlineTours/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.Test1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanchik.online-tours";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,105 +400,26 @@
 		};
 		1FA0E3812575039900CDCB2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C5AE49EEC119E698BABB97 /* Pods-OnlineTours.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test1/Info.plist;
+				INFOPLIST_FILE = OnlineTours/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.Test1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanchik.online-tours";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		1FA0E3832575039900CDCB2C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test1Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.Test1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test1.app/Test1";
-			};
-			name = Debug;
-		};
-		1FA0E3842575039900CDCB2C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test1Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.Test1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test1.app/Test1";
-			};
-			name = Release;
-		};
-		1FA0E3862575039900CDCB2C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test1UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.Test1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Test1;
-			};
-			name = Debug;
-		};
-		1FA0E3872575039900CDCB2C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test1UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.Test1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Test1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FA0E3502575039500CDCB2C /* Build configuration list for PBXProject "Test1" */ = {
+		1FA0E3502575039500CDCB2C /* Build configuration list for PBXProject "OnlineTours" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FA0E37D2575039900CDCB2C /* Debug */,
@@ -556,29 +428,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FA0E37F2575039900CDCB2C /* Build configuration list for PBXNativeTarget "Test1" */ = {
+		1FA0E37F2575039900CDCB2C /* Build configuration list for PBXNativeTarget "OnlineTours" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FA0E3802575039900CDCB2C /* Debug */,
 				1FA0E3812575039900CDCB2C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FA0E3822575039900CDCB2C /* Build configuration list for PBXNativeTarget "Test1Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FA0E3832575039900CDCB2C /* Debug */,
-				1FA0E3842575039900CDCB2C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FA0E3852575039900CDCB2C /* Build configuration list for PBXNativeTarget "Test1UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FA0E3862575039900CDCB2C /* Debug */,
-				1FA0E3872575039900CDCB2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

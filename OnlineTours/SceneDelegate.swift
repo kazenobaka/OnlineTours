@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Test1
+//  OnlineTours
 //
 //  Created by Алексей on 30.11.2020.
 //  Copyright © 2020 Алексей. All rights reserved.
